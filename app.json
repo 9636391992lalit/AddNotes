@@ -22,13 +22,13 @@
       },
       "package": "com.notesapp",
       "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
       ]
     },
-    "web": {
-    },
+    "web": {},
     "plugins": [
       [
         "expo-image-picker",
@@ -42,7 +42,12 @@
           "cameraPermission": "The app accesses your camera to let you capture images for notes."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8bc414af-9752-433c-b598-71ad8f5e0a91"
+      }
+    },
+    "owner": "lalit24707"
   }
 }
-

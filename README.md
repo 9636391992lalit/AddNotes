@@ -96,6 +96,14 @@ To build a production APK for Android:
    
    The APK will be located at: `android/app/build/outputs/apk/release/app-release.apk`
 
+## App Builds
+
+### Download Latest Build
+
+You can download the latest build of the app from Expo:
+
+🔗 **Expo Build Link**: [https://expo.dev/accounts/lalit24707/projects/notesapp/builds/2154f9bb-827a-46e0-a3da-c1d52fce126f](https://expo.dev/accounts/lalit24707/projects/notesapp/builds/2154f9bb-827a-46e0-a3da-c1d52fce126f)
+
 ## Libraries Used
 
 ### Core Dependencies
