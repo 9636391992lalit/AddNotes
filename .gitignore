@@ -17,3 +17,20 @@ web-build/
 *.log
 *.tmp
 
+# Build outputs (uncomment if you want to exclude APKs from git)
+# *.apk
+# android/app/build/
+# ios/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
